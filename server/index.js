@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://lastclassdev:missionlastclass4all@cluster0.irrqc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
